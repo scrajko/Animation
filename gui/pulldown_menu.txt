@@ -1,0 +1,18 @@
+
+> File  gui_file.png
+>> Load gui_load.png
+>> Save gui_save.png
+
+> Edit          gui_edit.png
+>> Undo         gui_undo.png
+>> Copy         gui_copy.png
+>> Paste        gui_paste.png
+>> Select       gui_select.png
+>> Move         gui_move.png
+>> Extend       gui_extend.png
+>> DoubleFrames gui_double_frame.png
+>> TripleFrames gui_triple_frame.png
+
+> Effects
+>> Blur
+>> Invert

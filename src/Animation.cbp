@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Animation" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="/bin/Debug/Animation" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../Animation" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="C:/SFML-2.4.0/include" />
+					<Add directory="C:/MinGW/include" />
+					<Add directory="C:/Users/Sean/Desktop/Coding/Animation/src/" />
+					<Add directory="C:/Users/Sean/Desktop/Coding/OpenGL/include" />
+					<Add directory="C:/glew-2.0.0/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-s-d" />
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-system-s-d" />
+					<Add library="opengl32" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="gdi32" />
+					<Add library="glew32" />
+					<Add library="freetype" />
+					<Add library="jpeg" />
+					<Add library="z" />
+					<Add library="bz2" />
+					<Add directory="C:/SFML-2.2/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Animation" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../Animation" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="C:/SFML-2.4.0/include" />
+					<Add directory="C:/MinGW/include" />
+					<Add directory="C:/Users/Sean/Desktop/Coding/Animation/src/" />
+					<Add directory="C:/Users/Sean/Desktop/Coding/OpenGL/include" />
+					<Add directory="C:/glew-2.0.0/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-audio-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-system-s" />
+					<Add library="opengl32" />
+					<Add library="winmm" />
+					<Add library="ws2_32" />
+					<Add library="gdi32" />
+					<Add library="glew32" />
+					<Add library="jpeg" />
+					<Add library="freetype" />
+					<Add library="bz2" />
+					<Add library="z" />
+					<Add directory="C:/SFML-2.4.0-build/lib" />
+					<Add directory="C:/glew-2.0.0/lib" />
+				</Linker>
+			</Target>
+			<Target title="FFTW_test">
+				<Option output="bin/FFTW_test/Animation" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/FFTW_test/" />
+				<Option object_output="obj/FFTW_test/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="brush/Brush.cpp" />
+		<Unit filename="brush/Brush.hpp" />
+		<Unit filename="brush/BrushDistance.cpp" />
+		<Unit filename="brush/BrushDistance.hpp" />
+		<Unit filename="brush/BrushMath.cpp" />
+		<Unit filename="brush/BrushMath.hpp" />
+		<Unit filename="filtering/Filtering.hpp" />
+		<Unit filename="frame/Effects.cpp" />
+		<Unit filename="frame/Effects.hpp" />
+		<Unit filename="frame/Frame.cpp" />
+		<Unit filename="frame/Frame.hpp" />
+		<Unit filename="frame/FrameProcessing.hpp" />
+		<Unit filename="frame/RenderFrame.cpp" />
+		<Unit filename="frame/RenderFrame.hpp" />
+		<Unit filename="frame/VectorAssetTree.cpp" />
+		<Unit filename="frame/VectorAssetTree.hpp" />
+		<Unit filename="frame/VectorFrame.hpp" />
+		<Unit filename="frame/VectorRasterization.hpp" />
+		<Unit filename="graphics/Color.cpp" />
+		<Unit filename="graphics/Color.hpp" />
+		<Unit filename="lodepng/lodepng.cpp" />
+		<Unit filename="lodepng/lodepng.h" />
+		<Unit filename="main.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="mvc/DefaultFont.hpp" />
+		<Unit filename="mvc/InputBox.hpp" />
+		<Unit filename="mvc/InteractiveWidgetMenu.hpp" />
+		<Unit filename="mvc/MenuFunctions.cpp" />
+		<Unit filename="mvc/MenuFunctions.hpp" />
+		<Unit filename="mvc/OnUpdate.cpp" />
+		<Unit filename="mvc/OnUpdate.hpp" />
+		<Unit filename="mvc/Paint_Controller.cpp" />
+		<Unit filename="mvc/Paint_Controller.hpp" />
+		<Unit filename="mvc/Paint_Model.cpp" />
+		<Unit filename="mvc/Paint_Model.hpp" />
+		<Unit filename="mvc/Paint_View_GUI.cpp" />
+		<Unit filename="mvc/Paint_View_GUI.hpp" />
+		<Unit filename="mvc/PulldownMenu.cpp" />
+		<Unit filename="mvc/PulldownMenu.hpp" />
+		<Unit filename="other/Common.hpp" />
+		<Unit filename="other/ConnectionShapeFrame.hpp" />
+		<Unit filename="other/Coordinate.cpp" />
+		<Unit filename="other/Coordinate.hpp" />
+		<Unit filename="other/Misc.cpp" />
+		<Unit filename="other/Misc.hpp" />
+		<Unit filename="other/Randomization.cpp" />
+		<Unit filename="other/Randomization.hpp" />
+		<Unit filename="other/UnitTesting.hpp" />
+		<Unit filename="tablet/MSGPACK.H" />
+		<Unit filename="tablet/PKTDEF.H" />
+		<Unit filename="tablet/Utils.cpp" />
+		<Unit filename="tablet/Utils.h" />
+		<Unit filename="tablet/WINTAB.H" />
+		<Unit filename="tablet/WinTabFunctionality.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
